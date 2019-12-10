@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Maptastic} from 'maptastic'
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'maptastictest';
+  
+  
+  maptasticMode() {
+    Maptastic('maptastic_element')
+  }
 }

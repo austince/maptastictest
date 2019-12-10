@@ -3,7 +3,6 @@ import { NgModule, OnInit } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import {Maptastic} from 'maptastic'
 
 @NgModule({
   declarations: [
@@ -17,6 +16,5 @@ import {Maptastic} from 'maptastic'
 })
 export class AppModule { 
   OnInit(){
-    Maptastic('app')
   }
 }
